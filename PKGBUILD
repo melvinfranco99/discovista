@@ -8,7 +8,7 @@ url="https://github.com/melvinfranco99/discovista"
 license=('MIT')
 depends=('python' 'python-pyqt6' 'util-linux')
 source=("$pkgname-$pkgver.tar.gz::$url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('2c50e371de1903f8e1a4ee988c46d6f318628914adebed9908b07200c70db29a')
 
 package() {
   cd "$pkgname-$pkgver"
