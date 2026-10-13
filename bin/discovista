@@ -1,0 +1,4 @@
+#!/bin/sh
+# Lanzador de DiscoVista
+DIR="${DISCOVISTA_HOME:-/usr/share/discovista}"
+PYTHONPATH="$DIR${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m discovista "$@"

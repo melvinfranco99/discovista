@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=DiscoVista
+GenericName=Analizador de uso de disco
+Comment=Explora visualmente discos, particiones y lo que más ocupa
+Exec=discovista %f
+Icon=discovista
+Terminal=false
+Categories=System;Utility;Filesystem;Qt;
+Keywords=disco;espacio;particion;almacenamiento;treemap;disk;usage;
+StartupWMClass=discovista
